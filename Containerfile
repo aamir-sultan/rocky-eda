@@ -9,6 +9,7 @@ RUN dnf -y install xclock && \
     dnf -y install git && \
     dnf -y install sudo && \
     dnf -y install java && \
+    dnf -y install firefox && \
     dnf clean all
 # Create a non-root user (replace 'myuser' with your choice)
 # -m creates the home directory, -G adds them to the wheel group
